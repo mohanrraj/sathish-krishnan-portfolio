@@ -718,6 +718,12 @@ img {
   color: var(--primary);
 }
 
+.contact-item span {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -1702,7 +1708,7 @@ footer p {
 /* Project info text styles are now handled in the main .project-info rule */
 
 /* Vibrant Gradient Backgrounds for Project Info Sections */
-.portfolio-item:nth-child(1) .project-info{
+/* .portfolio-item:nth-child(1) .project-info{
   background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
 }
 .portfolio-item:nth-child(2) .project-info{
@@ -1731,6 +1737,46 @@ footer p {
 }
 .portfolio-item:nth-child(10) .project-info {
   background: linear-gradient(135deg, #7f00ff, #e100ff);
+} */
+
+.portfolio-item:nth-child(1) .project-info {
+  background: linear-gradient(135deg, #1e3c72, #407ce3); /* Deep blue */
+}
+
+.portfolio-item:nth-child(2) .project-info {
+  background: linear-gradient(135deg, #ff512f, #dd2476); /* Sunset pink */
+}
+
+.portfolio-item:nth-child(3) .project-info {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark ocean */
+}
+
+.portfolio-item:nth-child(4) .project-info {
+  background: linear-gradient(135deg, #fc5c7d, #6a82fb); /* Rose to violet */
+}
+
+.portfolio-item:nth-child(5) .project-info {
+  background: linear-gradient(135deg, #4568dc, #b06ab3); /* Indigo to orchid */
+}
+
+.portfolio-item:nth-child(6) .project-info {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Coral to peach */
+}
+
+.portfolio-item:nth-child(7) .project-info {
+  background: linear-gradient(135deg, #141e30, #243b55); /* Midnight blue */
+}
+
+.portfolio-item:nth-child(8) .project-info {
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); /* Purple sunset */
+}
+
+.portfolio-item:nth-child(9) .project-info {
+  background: linear-gradient(135deg, #2b5876, #4e4376); /* Steel blue */
+}
+
+.portfolio-item:nth-child(10) .project-info {
+  background: linear-gradient(135deg, #ff4e50, #f9d423); /* Red to yellow */
 }
 
 /* ========== CONTACT SECTION ========== */
@@ -1817,7 +1863,7 @@ footer p {
   transform: scale(1.2);
 }
 
-.portfolio-item:nth-child(1) .btn-gradient{
+/* .portfolio-item:nth-child(1) .btn-gradient{
   background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
 }
 .portfolio-item:nth-child(2) .btn-gradient{
@@ -1846,6 +1892,46 @@ footer p {
 }
 .portfolio-item:nth-child(10) .btn-gradient {
   background: linear-gradient(135deg, #7f00ff, #e100ff);
+} */
+
+.portfolio-item:nth-child(1) .btn-gradient {
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue */
+}
+
+.portfolio-item:nth-child(2) .btn-gradient {
+  background: linear-gradient(135deg, #ff512f, #dd2476); /* Sunset pink */
+}
+
+.portfolio-item:nth-child(3) .btn-gradient {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark ocean */
+}
+
+.portfolio-item:nth-child(4) .btn-gradient {
+  background: linear-gradient(135deg, #fc5c7d, #6a82fb); /* Rose to violet */
+}
+
+.portfolio-item:nth-child(5) .btn-gradient {
+  background: linear-gradient(135deg, #4568dc, #b06ab3); /* Indigo to orchid */
+}
+
+.portfolio-item:nth-child(6) .btn-gradient {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Coral to peach */
+}
+
+.portfolio-item:nth-child(7) .btn-gradient {
+  background: linear-gradient(135deg, #141e30, #243b55); /* Midnight blue */
+}
+
+.portfolio-item:nth-child(8) .btn-gradient {
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); /* Purple sunset */
+}
+
+.portfolio-item:nth-child(9) .btn-gradient {
+  background: linear-gradient(135deg, #2b5876, #4e4376); /* Steel blue */
+}
+
+.portfolio-item:nth-child(10) .btn-gradient {
+  background: linear-gradient(135deg, #ff4e50, #f9d423); /* Red to yellow */
 }
 
 /* Footer with Background Image */

@@ -1058,7 +1058,7 @@ footer p {
     font-size: 20px;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #b00000a0;
+    border-bottom: 1px solid var(--primary);
 }
 
 /* Responsive styles */

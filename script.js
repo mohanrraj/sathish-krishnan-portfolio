@@ -152,7 +152,7 @@ const projects = {
         location: 'Chengalpattu, Tamil Nadu',
         poster: 'projects/posters/08_logo08a.jpg',
         layout: 'projects/layouts/09_Vsr_nagar_layout_plan.jpg',
-        site:'projects/sites/vsr.jpeg',
+        site:'projects/sites/vsr.jpg',
         description: 'VSR NAGAR offers a gated community with black tar roads, parks, a temple, and 24/7 security in a pollution-free environment. It features rainwater harvesting, CCTV surveillance, and 24×7 transport facilities in an established residential area. With children’s play areas, parking, and 90% bank loan availability, it ensures a secure and comfortable lifestyle.'
     },
     

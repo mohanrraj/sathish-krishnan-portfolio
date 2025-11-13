@@ -1226,7 +1226,8 @@ footer p {
 }
 
 .modal-poster,
-.modal-layout {
+.modal-layout,
+.modal-site {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -1238,7 +1239,8 @@ footer p {
 }
 
 .modal-poster:hover,
-.modal-layout:hover {
+.modal-layout:hover,
+.modal-site:hover {
     transform: scale(1.03);
 }
 
@@ -1278,6 +1280,15 @@ footer p {
     margin-bottom: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--primary);
+}
+
+.email {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    vertical-align: middle;
+    line-height: 1.4;
 }
 
 /* Responsive styles */
@@ -1341,7 +1352,8 @@ footer p {
 }
 
 .modal-poster,
-.modal-layout {
+.modal-layout,
+.modal-site {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -1353,7 +1365,8 @@ footer p {
 }
 
 .modal-poster:hover,
-.modal-layout:hover {
+.modal-layout:hover,
+.modal-site:hover {
     transform: scale(1.03);
 }
 
@@ -1997,6 +2010,10 @@ footer p {
 .portfolio-item:nth-child(10) .project-info {
   background: linear-gradient(135deg, #ff4e50, #f9d423); /* Red to yellow */
 }
+.portfolio-item:nth-child(11) .project-info {
+  background: linear-gradient(135deg, #f857a6, #ff5e62);
+}
+
 
 /* ========== CONTACT SECTION ========== */
 .contact {
@@ -2152,6 +2169,9 @@ footer p {
 .portfolio-item:nth-child(10) .btn-gradient {
   background: linear-gradient(135deg, #ff4e50, #f9d423); /* Red to yellow */
 }
+.portfolio-item:nth-child(11) .btn-gradient {
+  background: linear-gradient(135deg, #f857a6, #ff5e62);
+}
 
 /* Footer with Background Image */
 .footer-img {
@@ -2199,4 +2219,13 @@ footer p {
     flex-direction: column;
     justify-content: left;
     align-items: left;
+}
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient);
 }

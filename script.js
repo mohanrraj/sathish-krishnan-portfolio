@@ -132,81 +132,110 @@ const modal = document.getElementById('projectModal');
 // Project data with title, location, and description for each project
 const projects = {
     'project1': {
-        title: 'Kanchi Kanda Kottam',
-        location: 'Kanchipuram, Tamil Nadu',
-        poster: 'projects/posters/logo01a.jpg',
-        layout: 'projects/layouts/kanchi_kanda_kottam_layout_plan.jpg',
-        description: 'KANCHI KANDA KOTTAM offers a gated community with cement roads, a park, a temple, and 24/7 security.  It includes walkways, public utility areas, stormwater drains, and streetlights for a well-planned environment. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it provides comfort and convenience.'
-    },
-    'project2': {
-        title: 'Railway Nagar',
-        location: 'Chengalpattu, Tamil Nadu',
-        poster: 'projects/posters/logo02a.jpg',
-        layout: 'projects/layouts/railway_nagar_layout_plan.jpg',
-        description: 'RAILWAY NAGAR offers a secure gated community with tar roads, parks, a temple, and 24/7 security. It includes walkways, public utility areas, stormwater drains, and streetlights for a well-planned layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures convenient living.'
-    },
-    'project3': {
-        title: 'Satellite City',
-        location: 'Anupuram, Tamil Nadu',
-        poster: 'projects/posters/logo03a.jpg',
-        layout: 'projects/layouts/satellite_city_layout_plan.jpg',
-        description: 'SATELLITE CITY offers a gated community with parks, walkways, streetlights, and 24/7 security. It features commercial shops, children’s play areas, and ample parking with cemented roads and stormwater drains. Water, bank loan facilities, and on-road access make it a fully equipped and convenient residential layout.'
-    },
-    'project4': {
-        title: 'Sri Sai Padmavati Nagar',
-        location: 'Chengalpattu, Tamil Nadu',
-        poster: 'projects/posters/logo04a.jpg',
-        layout: 'projects/layouts/sri_sai_padmavati_nagar_layout_plan.jpg',
-        description: 'Sri Sai Padmavati Nagar offers a safe gated community with tar roads, parks, a temple, and 24/7 security in a pollution-free environment. It includes walkways, stormwater drains, and 24×7 transport access for convenient living. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures comfort and accessibility.'
-    },
-    'project5': {
-        title: 'Collector Farms',
-        location: 'Chengalpattu, Tamil Nadu',
-        poster: 'projects/posters/logo05a.jpg',
-        layout: 'projects/layouts/collector_farms_layout_plan.jpg',
-        description: 'Collector Farms offers spacious plots starting from 5010 sq. ft. with 24×7 transport, water, and electricity facilities. It provides a pollution-free environment with lush green plantations and 24 ft wide tar roads. With clear documentation, it’s ideal for organic agriculture and farmland development.'
-    },
-    'project6': {
-        title: 'Sri Sakthi Vinayagar Nagar',
-        location: 'Tellar, Vandavasi, Tamil Nadu',
-        poster: 'projects/posters/logo06a.jpg',
-        layout: 'projects/layouts/sri_sakthi_vinayagar_nagar_layout_plan.jpg',
-        description: 'Sri Sakthi Vinayagar Nagar (Golden Heaven) offers a gated community with cement roads, parks, a temple, and 24/7 security in a pollution-free environment. It provides 24×7 transport access and is located in an established residential area. With reliable water supply and 80% bank loan availability, it ensures comfortable and convenient living.'
-    },
-    'project7': {
-        title: 'Siddhar Nagar',
-        location: 'Salem, Tamil Nadu',
-        poster: 'projects/posters/logo07a.jpg',
-        layout: 'projects/layouts/siddhar_nagar_layout_plan.jpg',
-        description: 'Siddhar Nagar offers a secure gated community with tar roads, parks, a temple, and 24/7 surveillance. It includes drainage systems, water connections for each plot, and fenced boundaries for added safety. With CCTV, children’s play areas, parking, and 80% bank loan availability, it ensures modern and comfortable living.'
-    },
-    'project8': {
-        title: 'VSR Nagar',
-        location: 'Chengalpattu, Tamil Nadu',
-        poster: 'projects/posters/logo08a.jpg',
-        layout: 'projects/layouts/vsr_nagar_layout_plan.jpg',
-        description: 'VSR NAGAR offers a gated community with black tar roads, parks, a temple, and 24/7 security in a pollution-free environment. It features rainwater harvesting, CCTV surveillance, and 24×7 transport facilities in an established residential area. With children’s play areas, parking, and 90% bank loan availability, it ensures a secure and comfortable lifestyle.'
-    },
-    'project9': {
         title: 'MM Nagar',
         location: 'Chengalpattu, Tamil Nadu',
-        poster: 'projects/posters/logo09a.jpg',
-        layout: 'projects/layouts/mm_nagar_layout_plan.jpg',
+        poster: 'projects/posters/02_logo09a.jpg',
+        layout: 'projects/layouts/03_mm_nagar_layout_plan.jpg',
+        site:'projects/sites/mmnagar.jpeg',
         description: 'MM NAGAR offers a gated community with tar roads, parks, a temple, and round-the-clock security in a pollution-free environment. It features walkways, public utility areas, stormwater drains, and streetlights for comfortable living. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures convenience and accessibility.'
     },
-    'project10': {
+    'project2': {
+        title: 'Collector Farms',
+        location: 'Chengalpattu, Tamil Nadu',
+        poster: 'projects/posters/05_logo05a.jpg',
+        layout: 'projects/layouts/06_collector_farms_layout_plan.jpg',
+        site:'projects/sites/collector.jpeg',
+        description: 'Collector Farms offers spacious plots starting from 5010 sq. ft. with 24×7 transport, water, and electricity facilities. It provides a pollution-free environment with lush green plantations and 24 ft wide tar roads. With clear documentation, it’s ideal for organic agriculture and farmland development.'
+    },
+    'project3': {
+        title: 'VSR Nagar',
+        location: 'Chengalpattu, Tamil Nadu',
+        poster: 'projects/posters/08_logo08a.jpg',
+        layout: 'projects/layouts/09_Vsr_nagar_layout_plan.jpg',
+        site:'projects/sites/vsr.jpeg',
+        description: 'VSR NAGAR offers a gated community with black tar roads, parks, a temple, and 24/7 security in a pollution-free environment. It features rainwater harvesting, CCTV surveillance, and 24×7 transport facilities in an established residential area. With children’s play areas, parking, and 90% bank loan availability, it ensures a secure and comfortable lifestyle.'
+    },
+    
+    'project4': {
+        title: 'Thirumalai Nagar',
+        location: 'Walajabad Town, Tamil Nadu',
+        poster: 'projects/posters/11_logo12a.jpg',
+        layout: 'projects/layouts/12_Thirumalai_Nagar_Layout.jpg',
+        site:'projects/sites/Thirumalai.jpg',
+        description: 'THIRUMALAI NAGAR offers a gated community with on road property, cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
+    },
+    'project5': {
+        title: 'Railway Nagar',
+        location: 'Chengalpattu, Tamil Nadu',
+        poster: 'projects/posters/14_logo02a.jpg',
+        layout: 'projects/layouts/15_railway_nagar_layout_plan.jpg',
+        site:'projects/sites/railway.JPG',
+        description: 'RAILWAY NAGAR offers a secure gated community with tar roads, parks, a temple, and 24/7 security. It includes walkways, public utility areas, stormwater drains, and streetlights for a well-planned layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures convenient living.'
+    },
+    'project6': {
         title: 'Sri Ranganathar Avenue',
         location: 'Palur, Tamil Nadu',
-        poster: 'projects/posters/logo010a.jpg',
-        layout: 'projects/layouts/sri_ranganathar_avenue_Layout_plan.jpg',
+        poster: 'projects/posters/17_logo010a.jpg',
+        layout: 'projects/layouts/18_sri_ranganathar_avenue_layout_plan.jpg',
+        site:'projects/sites/ranganathar.jpg',
         description: 'SRI RANGANATHAR AVENUE offers a gated community with cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
-    }
+    },
+    'project7': {
+        title: 'Satellite City',
+        location: 'Anupuram, Tamil Nadu',
+        poster: 'projects/posters/20_logo03a.jpg',
+        layout: 'projects/layouts/21_satellite_city_layout_plan.jpg',
+        site:'projects/sites/satellite.jpg',
+        description: 'SATELLITE CITY offers a gated community with parks, walkways, streetlights, and 24/7 security. It features commercial shops, children’s play areas, and ample parking with cemented roads and stormwater drains. Water, bank loan facilities, and on-road access make it a fully equipped and convenient residential layout.'
+    },
+    'project8': {
+        title: 'Siddhar Nagar',
+        location: 'Salem, Tamil Nadu',
+        poster: 'projects/posters/23_logo07a.jpg',
+        layout: 'projects/layouts/24_siddharth_nagar_layout_plan.jpg',
+        site:'projects/sites/siddharth.jpg',
+        description: 'Siddhar Nagar offers a secure gated community with tar roads, parks, a temple, and 24/7 surveillance. It includes drainage systems, water connections for each plot, and fenced boundaries for added safety. With CCTV, children’s play areas, parking, and 80% bank loan availability, it ensures modern and comfortable living.'
+    },
+    'project9': {
+        title: 'Sri Sakthi Vinayagar Nagar',
+        location: 'Tellar, Vandavasi, Tamil Nadu',
+        poster: 'projects/posters/26_logo06a.jpg',
+        layout: 'projects/layouts/27_sri_sakthi_vinayagar_nagar_layout_plan.jpg',
+        site:'projects/sites/sakthi.jpeg',
+        description: 'Sri Sakthi Vinayagar Nagar (Golden Heaven) offers a gated community with cement roads, parks, a temple, and 24/7 security in a pollution-free environment. It provides 24×7 transport access and is located in an established residential area. With reliable water supply and 80% bank loan availability, it ensures comfortable and convenient living.'
+    },
+    'project10': {
+        title: 'Sri Sai Padmavati Nagar',
+        location: 'Chengalpattu, Tamil Nadu',
+        poster: 'projects/posters/29_logo04a.jpg',
+        layout: 'projects/layouts/30_sri_sai_padmavati_nagar_layout_plan.jpg',
+        site:'projects/sites/padmavati.jpeg',
+        description: 'Sri Sai Padmavati Nagar offers a safe gated community with tar roads, parks, a temple, and 24/7 security in a pollution-free environment. It includes walkways, stormwater drains, and 24×7 transport access for convenient living. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures comfort and accessibility.'
+    },
+    'project11': {
+        title: 'Kanchi Kanda Kottam',
+        location: 'Kanchipuram, Tamil Nadu',
+        poster: 'projects/posters/32_logo01a.jpg',
+        layout: 'projects/layouts/33_kanchi_kanda_kottam_layout_plan.jpg',
+        site:'projects/sites/kanchi.jpg',
+        description: 'KANCHI KANDA KOTTAM offers a gated community with cement roads, a park, a temple, and 24/7 security.  It includes walkways, public utility areas, stormwater drains, and streetlights for a well-planned environment. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it provides comfort and convenience.'
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // Add more projects as needed
 };
 
 // Get modal elements
 const modalPoster = document.getElementById('modalPoster');
 const modalLayout = document.getElementById('modalLayout');
+const modalSite = document.getElementById('modalSite');
 const projectDescription = document.getElementById('projectDescription');
 const projectTitle = document.getElementById('projectTitle');
 const projectLocation = document.getElementById('projectLocation');
@@ -220,6 +249,7 @@ function openProjectModal(projectId) {
     // Set the modal content
     modalPoster.src = project.poster;
     modalLayout.src = project.layout;
+    modalSite.src = project.site;
     projectDescription.textContent = project.description;
     projectTitle.textContent = project.title;
     projectLocation.textContent = project.location;
@@ -317,6 +347,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     modalLayout.addEventListener('click', () => {
         window.open(modalLayout.src, '_blank');
+    });
+
+    modalSite.addEventListener('click', () => {
+        window.open(modalSite.src, '_blank');
     });
 });
 

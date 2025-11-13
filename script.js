@@ -176,7 +176,7 @@ const projects = {
         title: 'Sri Ranganathar Avenue',
         location: 'Palur, Tamil Nadu',
         poster: 'projects/posters/17_logo010a.jpg',
-        layout: 'projects/layouts/18_sri_ranganathar_avenue_layout_plan.jpg',
+        layout: 'projects/layouts/18_sri_ranganathar_avenue_Layout_plan.jpg',
         site:'projects/sites/ranganathar.jpg',
         description: 'SRI RANGANATHAR AVENUE offers a gated community with cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
     },
@@ -185,7 +185,7 @@ const projects = {
         location: 'Anupuram, Tamil Nadu',
         poster: 'projects/posters/20_logo03a.jpg',
         layout: 'projects/layouts/21_satellite_city_layout_plan.jpg',
-        site:'projects/sites/satellite.jpg',
+        site:'projects/sites/satellite.JPG',
         description: 'SATELLITE CITY offers a gated community with parks, walkways, streetlights, and 24/7 security. It features commercial shops, children’s play areas, and ample parking with cemented roads and stormwater drains. Water, bank loan facilities, and on-road access make it a fully equipped and convenient residential layout.'
     },
     'project8': {

@@ -258,7 +258,8 @@ function openProjectModal(projectId) {
     const whatsappBtn = document.getElementById('whatsappBtn');
     const phoneNumber = '919367936748'; // Replace with your WhatsApp number (without + or spaces)
     const message = `Hi, I'm interested in ${project.title}. I would like to know more details about this project.`; 
-    whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
+    const encodedMessage = encodeURIComponent(message);
+    whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     
     // Show the modal
     modal.style.display = 'block';

@@ -162,7 +162,7 @@ const projects = {
         poster: 'projects/posters/11_logo12a.jpg',
         layout: 'projects/layouts/12_Thirumalai_Nagar_Layout.jpg',
         site:'projects/sites/Thirumalai.jpg',
-        description: 'THIRUMALAI NAGAR offers a gated community with cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
+        description: 'THIRUMALAI NAGAR offers a gated community with on road property, cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
     },
     'project5': {
         title: 'Railway Nagar',

@@ -144,7 +144,7 @@ const projects = {
         location: 'Chengalpattu, Tamil Nadu',
         poster: 'projects/posters/05_logo05a.jpg',
         layout: 'projects/layouts/06_collector_farms_layout_plan.jpg',
-        site:'projects/sites/collector.jpeg',
+        site:'projects/sites/collector_farms.jpg',
         description: 'Collector Farms offers spacious plots starting from 5010 sq. ft. with 24×7 transport, water, and electricity facilities. It provides a pollution-free environment with lush green plantations and 24 ft wide tar roads. With clear documentation, it’s ideal for organic agriculture and farmland development.'
     },
     'project3': {
